@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  #ReportAnEmergency{ 
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: bold;
+  color: #0075C9;
+  line-height: 33.6px;
+  align-content: left;
+  display: flex;
+  padding-left: 16px;
+  }
+  #step { 
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  padding-left: 16px;
+   }
+   div{
+       white-space: normal;
+   }
+   hr{
+  width: 65px;
+  height: 1px;
+  color: #0075C9 ;
+  background-color: #0075C9;
+  border-width: 0;
+  margin-left: 16px;
+   }
+  
+  .WhatIsYourLocation
+  {
+    position: static;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    color: #000000;
+    align-content: left;
+    display: flex;
+    padding-left: 16px;
+    margin-top: -20px;
+  
+  }
+  
+  .InputLocation
+  {
+    border-radius: 10px;
+      border: 2px solid #A9A9A9;
+      padding: 20px; 
+      width: 290px;
+      height: 10px;
+      margin-left: 16px;
+      margin-right:16px;
+  }
+
+  
+  .UseLocButton
+  {
+    float:left;
+  position: static;
+  width: 178px;
+  height: 45px;
+  left: calc(50% - 79px/2 + 10.5px);
+  top: calc(50% - 21px/2);
+  
+  /* Button Small */
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  /* identical to box height, or 21px */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.005em;
+  margin-left: 16px;
+  margin-top: 20px;
+  /* Blue/Blue DC Water */
+  background: #0075C9;
+  border: 1.5px solid #FFFFFF;
+  border-radius: 10px;
+  }
+  
+  .LocButtonText
+  {
+ /* Label */
+
+
+position: static;
+left: 13.48%;
+right: 28.65%;
+top: 26.67%;
+bottom: 26.67%;
+
+/* Button Small */
+
+font-family: 'Fira Sans', sans-serif;
+font-style: bold;
+font-weight: 100px;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.005em;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+ 
+.InputLocation img{ 
+   /* coolicon */
+
+
+position: absolute;
+left: 14.52%;
+right: 16.28%;
+top: 12.5%;
+bottom: 18.3%;
+
+/* Shade / 700 */
+
+background: #2E3A59
+}
+
+.DropPinButton
+{
+    float: left;
+    position: static;
+    width: 142px;
+    height: 45px;
+    left: calc(50% - 79px/2 + 10.5px);
+    top: calc(50% - 21px/2);
+    
+    /* Button Small */
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.005em;
+    margin-left: 16px;
+    margin-top: 20px;
+    /* Blue/Blue DC Water */
+    background: #0075C9;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+.MapScreenshot
+{
+    position: static;
+    margin-left: 16px;
+    margin-top: 80px;
+}
+
+.Arrow-Blue{
+  position: relative;
+  top: 10px;
+  margin-right:10px;
+  margin-left: 1px;
+}
+
+.Arrow-Black{
+  position: relative;
+  top: 10px;
+  margin-left:10px;
+  
+  z-index: 99999;
+}
+
+.searchIcon
+{
+position:absolute;
+left: 330px;
+right:  27.91px;
+top: 285px;
+bottom: 0px;
+
+/* Shade / 700 */
+
+}
+
+.Arrow-White
+{
+  position: relative;
+  top: 10px;
+  margin-left:10px;
+  ;
+  z-index: 999999;
+}
+
+.embeddedmap
+{
+position:relative;
+margin-top: -95%;
+margin-left: 16px;
+}

@@ -1,0 +1,42 @@
+
+nav {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+    left: 0;
+    height: 65px;
+    z-index: 9999;
+     width: 100%; 
+  border-style: solid;
+  border-bottom-width: 2px;
+  background-color: #EFEFEF;
+  border-bottom-color: #0075C9;
+  border-right-color:#EFEFEF;
+  border-left-color:#EFEFEF;
+  border-top-color: #EFEFEF;
+  margin: 0;
+  padding: 0;
+
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  color:   #C4C4C4;
+
+}
+nav ul li a {
+  display: block;
+  line-height: 3em;
+  padding: 1em;
+  text-decoration: none;
+}
+nav ul li:first-child {
+  margin-right: auto;
+}
+
+

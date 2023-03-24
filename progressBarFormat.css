@@ -1,0 +1,33 @@
+.progBar{
+position: static;
+width: 84.17px;
+height: 7px;
+background: #C4C4C4;
+margin-right: 2;
+border-width: 0px;
+}
+
+.progLabel{
+	font-family: 'Fira Sans',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+display: none;
+
+}
+.grid-container{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+}
+
+#activeBar{
+	background-color: #0075C9;
+}
+
+#activeLabel{
+
+	display: block;
+
+}

@@ -1,0 +1,187 @@
+
+
+body {
+
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  #ReportAnEmergency{ 
+  position: static;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: bold;
+  color: #0075C9;
+  line-height: 33.6px;
+  align-content: left;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 16px;
+  margin-bottom:41.12px;
+  }
+  #step { 
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  padding-left: 16px;
+   }
+   div{
+       white-space: normal;
+   }
+   hr{
+  width: 65px;
+  height: 1px;
+  color: #0075C9 ;
+  background-color: #0075C9;
+  border-width: 0;
+  margin-left: 16px;
+   }
+  
+  .DCWaterMonitors{/* DC Water monitors this system 24/7 for new customer reports. */
+  /* DC Water monitors this system 24/7 for new customer reports. */
+  
+  
+  position: static;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  height:20px;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top:63.12px;
+  margin-left: 65px;
+  margin-right: 65px;
+  margin-bottom: 37px;
+  
+  }
+  
+
+  .frame52 {
+   
+    /* Frame 52 */
+  
+  
+  /* Auto layout */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 22px 14px 16px 32px;
+  
+  position: absolute;
+  width: 78%;
+  height: 40px;
+  left: 0px;
+  right:0px;
+  top: 120.12px;
+  margin-top: 39.12px;
+  margin-left: 16px;
+  
+  
+  
+  /* Blue/40 */
+  
+  background: rgba(0, 117, 201, 0.4);
+  border-radius: 10px;
+  z-index: -2;
+  }
+
+  
+  .Monitors-Paragraph {
+  
+  /* Welcome to the DC Water emergency reporting system. If there is a risk to safety or damage to public or private property, please submit this form. For account, billing or other inquiries, please contact us via our customer service form. You can also call us at (202) 612-3400 or reach out on Twitter @dcwater. */
+  
+  
+  position: static;
+  width: 90%;
+  height: 229px;
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  margin-top:50px;
+  margin-left:16px;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  
+  }
+  
+  .Water-Icon {
+    position:absolute;
+   
+    top: 131px;
+    margin-top:12px;
+    margin-left:29.81px;
+  
+  }
+  
+  .last-line
+  {
+    /* All fields marked with an asterisk (*) on the form are required. */
+  
+  
+  position: static;
+  width: 90%;
+  height: 66px;
+  left: 16px;
+  top: 447.12px;
+  
+  font-family: 'Fira Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  margin: 21px 16px;
+  }
+  
+  .Arrow-White{
+    top: 10000px;
+    margin-right:-16px;
+    margin-left: 2px;
+  }

@@ -1,0 +1,18 @@
+.fiveStars{
+  color: #ffe400;
+}
+.fiveStars input {
+  display: none;
+}
+.fiveStars input + label {
+  font-size: 40px;
+  cursor: pointer;
+}
+.fiveStars input:checked + label ~ label {
+  color:  #7A7A7A;
+}
+.fiveStars label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+

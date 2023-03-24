@@ -1,0 +1,109 @@
+.bottomNav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 20px;
+  margin-top: 20px;
+  position: -webkit-fixed; /* Safari */  
+  
+
+
+}
+
+.prevButton{ 
+padding-left: 24px;
+padding-right: 24px;
+align-items: center;
+position: static;
+width: 100px;
+height: 45px;
+margin-bottom: 15px;
+margin-left: 16px;
+background: #FFFFFF;
+/* Blue/Blue DC Water */
+
+border: 1.5px solid #0075C9;
+border-radius: 6px;
+/* Inside auto layout */
+}
+
+ .nextButton{
+align-items: center;
+padding-left: 24px;
+position: static;
+width: 100px;
+height: 45px;
+margin-bottom: 15px;
+margin-right: 16px;
+
+/* Blue/Blue DC Water */
+border: 1.5px solid #0075C9;
+background: #0075C9;
+border-radius: 6px;
+float: right;
+
+/* Inside auto layout */
+     
+/* Button Small */
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+
+/* White */
+
+color: #FFFFFF;
+
+ }
+
+.nextButton:disabled{
+background: #DDDDDD;
+color: #4A4A4A;
+border: 1.5px solid #DDDDDD;
+}
+
+ .prevButtonText{
+    position: static;
+
+
+/* Button Small */
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.005em;
+
+/* Blue/Blue DC Water */
+
+color: #0075C9;
+
+
+ }
+
+
+ .prevArrow{
+    padding-right:6.25px;
+}
+.nextArrow{
+    padding-left:6.25px;
+    position: absolute;
+    margin-top: 3px;
+}

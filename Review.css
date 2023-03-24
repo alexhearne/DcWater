@@ -1,0 +1,587 @@
+body {
+  
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  
+  }
+  #ReportAnEmergency{ 
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  font-style: bold;
+  color: #0075C9;
+  line-height: 33.6px;
+  align-content: left;
+  display: flex;
+  padding-left: 16px;
+  }
+  #step { 
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  padding-left: 16px;
+   }
+   div{
+       white-space: normal;
+   }
+   hr{
+  width: 65px;
+  height: 2px;
+  color: #0075C9 ;
+  background-color: #0075C9;
+  border-width: 0;
+  margin-left: 16px;
+  margin-top:-8px;
+   }
+  
+  .WhatIsYourLocation
+  {
+    position: static;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: bold;
+    color: #000000;
+    align-content: left;
+    display: flex;
+    padding-left: 16px;
+    margin-top: -20px;
+  
+  }
+  
+  .InputLocation
+  {
+    border-radius: 10px;
+      border: 2px solid #A9A9A9;
+      padding: 20px; 
+      width: 300px;
+      height: 10px;
+      margin-left: 16px;
+  }
+
+  .Box1
+  {
+    /* Box */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 343px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+border: 2px solid #C4C4C4;
+box-sizing: border-box;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 16px;
+margin-top: 215px;
+}
+
+.LeftSideBox1
+{
+    /* Left Side Box */
+
+
+position: static;
+width: 20px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left:240px;
+}
+
+.FirstTextBox
+{
+  position: static;
+width: 193px;
+height: 44px;
+left: 0px;
+top: 32px;
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* Darker grey */
+
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left:36px;
+margin-top:46px;
+}
+
+.Edit1
+{
+  /* Edit */
+
+
+position: static;
+width: 29px;
+height: 19px;
+left: 20px;
+top: 0px;
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Blue/Blue DC Water */
+
+color: #0075C9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 40px;
+margin-left: 5px;
+}
+
+.Pencil1
+{
+  margin-top:41px;
+  
+}
+
+.Location{
+
+  position: static;
+  width: 193px;
+  height: 17px;
+  left: 0px;
+  top: 10px;
+  
+  font-family: 'Fira Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  
+  /* Dark grey */
+  
+  color: #4A4A4A;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-left: 36px;
+  margin-top: 36px;
+  margin-bottom: -36px;
+}
+
+.MapReviewScreenshot
+{
+  /* Screen Shot 2021-11-29 at 5.03 2 */
+
+
+position: absolute;
+width: 322px;
+height: 202px;
+left: 26px;
+top: 320px;
+}
+
+    /* Box */
+
+
+/* Auto layout */
+.Box2{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 343px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+border: 2px solid #C4C4C4;
+box-sizing: border-box;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left: 16px;
+margin-top: 540px;
+}
+
+.LeftSideBox2
+{
+    /* Left Side Box */
+
+
+position: static;
+width: 20px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left:240px;
+}
+
+
+.Issue
+{
+  position: static;
+width: 214px;
+height: 17px;
+left: 0px;
+top: 10px;
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Dark grey */
+
+color: #4A4A4A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-top:260px;
+margin-left:36px;
+
+}
+
+.SecondBoxText
+{
+  
+position: static;
+width: 193px;
+height: 44px;
+left: 0px;
+top: 32px;
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* Darker grey */
+
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left:36px;
+margin-top:5px;
+
+}
+
+.Edit2
+{
+  /* Edit */
+
+
+position: static;
+width: 29px;
+height: 19px;
+left: 20px;
+top: 0px;
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Blue/Blue DC Water */
+
+color: #0075C9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 40px;
+margin-left: 5px;
+}
+
+.Pencil2
+{
+  margin-top:41px;
+  
+}
+
+.Box3{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  
+  position: absolute;
+  width: 343px;
+  height: 106px;
+  left: 0px;
+  top: 0px;
+  
+  border: 2px solid #C4C4C4;
+  box-sizing: border-box;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-left: 16px;
+  margin-top: 668px;
+  }
+
+  .LeftSideBox3
+{
+    /* Left Side Box */
+
+
+position: static;
+width: 20px;
+height: 106px;
+left: 0px;
+top: 0px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-left:240px;
+}
+
+.Edit3
+{
+  /* Edit */
+
+
+position: static;
+width: 29px;
+height: 19px;
+left: 20px;
+top: 0px;
+
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+
+/* Blue/Blue DC Water */
+
+color: #0075C9;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin-top: 40px;
+margin-left: 5px;
+}
+
+.Pencil3
+{
+  margin-top:41px;
+  
+}
+
+
+.PhotosAndVideos
+{
+  
+  position: static;
+width: 214px;
+height: 17px;
+left: 0px;
+top: 10px;
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+/* Dark grey */
+
+color: #4A4A4A;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin-top:60px;
+margin-left:36px;
+
+}
+
+.ThirdBoxText
+{
+  
+position: static;
+width: 193px;
+height: 44px;
+left: 0px;
+top: 32px;
+
+font-family: 'Fira Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+
+/* Darker grey */
+
+color: #2D2D2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-left:36px;
+margin-top:0px;
+}
+
+.Back
+{
+  font-family: 'Fira Sans', sans-serif;
+font-style: bold;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+  color: #0075C9;
+ 
+}
+.BlueArrow
+{
+  margin-bottom:-2px;
+}
+
+.WhiteArrow
+{
+  margin-bottom:-2px;
+}
+
+.Next
+{ 
+  letter-spacing: 0.001in;
+  font-family: 'Fira Sans', sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: white;
+}
+
+.ScrollFunction
+{
+  margin-top:150px;
+}

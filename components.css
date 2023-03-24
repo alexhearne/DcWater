@@ -1,0 +1,184 @@
+/* BUTTON STYLES */
+
+.smallbutton{
+height: 45px;
+width: 84px;
+font-size: 14px;
+border-radius: 6px;
+}
+
+.smallbutton:hover{
+background-color: rgba(0, 117, 201, 0.6);
+color: #FFFFFF;
+}
+
+.smallbutton:active{
+background-color: #00528C;
+color: #FFFFFF;
+}
+
+.smallbutton:disabled{
+background-color: #EFEFEF;
+color: #7A7A7A;
+}
+
+.mediumbutton{
+height: 52px;
+width: 123px;
+font-size: 16px;
+border-radius: 6px;
+}
+
+.mediumbutton:hover{
+background-color: rgba(0, 117, 201, 0.6);
+color: #FFFFFF;
+}
+
+.mediumbutton:active{
+background-color: #00528C;
+color: #FFFFFF;
+}
+
+.mediumbutton:disabled{
+background-color: #EFEFEF;
+color: #7A7A7A;
+}
+
+.largebutton{
+height: 59px;
+width: 142px;
+font-size: 18px;
+border-radius: 6px;
+}
+
+.largebutton:hover{
+background-color: rgba(0, 117, 201, 0.6);
+color: #FFFFFF;
+}
+
+.largebutton:active{
+background-color: #00528C;
+color: #FFFFFF;
+}
+
+.largebutton:disabled{
+background-color: #EFEFEF;
+color: #7A7A7A;
+}
+
+.bluewithwhitetext{
+background-color: #0075C9;
+color: #FFFFFF
+}
+
+.whitewithbluetext{
+background-color: #FFFFFF;
+color: #0075C9;
+border: 1px solid #0075C9;
+}
+
+.graywithblacktext{
+background-color: #F2F2F5;
+color: #3A3A3C;
+}
+
+/* HEADINGS */
+.h1{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 58px;
+
+color: #0075C9;
+}
+
+.h2{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 41px;
+
+color: #0075C9;
+}
+
+.h3{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 41px;
+
+color: #0075C9;
+}
+
+.h4{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 27px;
+
+color: #0075C9;
+}
+
+.h5{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 27px;
+
+color: #0075C9;
+}
+
+.h6{
+font-family: "Co Headline";
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 24px;
+
+color: #3A3A3C;
+}
+
+.bodytext{
+font-family: "Fira Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A3A3C;
+}
+
+.formlabel{
+font-family: "Fira Sans";
+font-style: normal;
+font-weight:normal;
+font-size: 20px;
+line-height: 24px;
+
+color: #3A3A3C;
+}
+
+.smalltext{
+font-family: "Fira Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+
+color: #3A3A3C;
+}
+
+.caption{
+font-family: "Fira Sans";
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+
+color: #3A3A3C;
+}

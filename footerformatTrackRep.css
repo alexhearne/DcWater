@@ -1,0 +1,131 @@
+.bottomNav {
+  
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-top: 20px;
+  margin-top: 20px;
+  position: -webkit-fixed; /* Safari */  
+
+
+}
+
+.prevButton{ 
+
+align-items: center;
+padding: 12px 24px;
+position: static;
+width: 161px;
+height: 45px;
+left: 16px;
+top: 15px;
+margin-bottom: 15px;
+margin-left: 16px;
+
+background: #FFFFFF;
+/* Blue/Blue DC Water */
+
+border: 1.5px solid #0075C9;
+border-radius: 6px;
+/* Inside auto layout */
+float: left;
+
+ }
+
+ .nextButton{
+align-items: center;
+
+position: static;
+width: 127px;
+height: 45px;
+right: 16px;
+top: 15px;
+margin-bottom: 15px;
+margin-right: 16px;
+
+/* Blue/Blue DC Water */
+
+border-radius: 6px;
+float: right;
+
+/* Inside auto layout */
+
+ }
+ .prevButtonText{
+    position: static;
+width: 131px;
+height: 21px;
+left: calc(50% - 31px/2 + 10.5px);
+top: calc(50% - 21px/2);
+
+/* Button Small */
+
+font-family: 'Fira Sans', sans-serif;
+font-style: Bold;
+font-weight: 500;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.010em;
+
+/* Blue/Blue DC Water */
+
+color: #0075C9;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+
+
+}
+
+ .nextButtonText{
+position: static;
+width: 35px;
+height: 21px;
+left: calc(50% - 31px/2 - 10.5px);
+top: calc(50% - 21px/2);
+
+/* Button Small */
+
+font-family: 'Fira Sans', sans-serif;
+font-style: Bold;
+font-weight: 600;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.010em;
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px 0px 15px;
+
+
+ }
+
+ .prevArrow{
+    padding-right: 10px;
+}
+.nextArrow{
+    padding-left:10px;
+}
